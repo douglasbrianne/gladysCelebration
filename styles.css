@@ -9,11 +9,22 @@ body {
 
 /* Style the header */
 .header {
+  
   padding: 80px;
+  text-align: center;
+  /* height: max-height; */
+  background: url(Resources/Images/mamieBackground.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  /* background: #A394B8; */
+  color: #412664;
+  
+  /* padding: 80px;
   text-align: center;
   height: max-height;
   background: #d8bcff;
-  color: #412664;
+  color: #412664; */
 }
 /* Increase the font size of the h1 element */
 .header h1 {
