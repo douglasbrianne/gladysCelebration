@@ -40,7 +40,21 @@ body {
 
 /* header */
 
-.header
+.header {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+  }
+
+.header2{
+    padding-left: 150px;
+    width: 450px;
+    top: 43px;
+    font-size: 35px;
+    bottom: 0;
+  }
 
 /* Style the container/contact section */
 .container {
