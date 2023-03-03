@@ -1,63 +1,29 @@
+body {
+  font-family: Baskerville, serif;
+}
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-family: baskerville, serif;
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-left: 250px;
-  padding-right: 250px;
-  text-align: center;
-  /* height: max-height; */
-  background: url(Resources/Images/mamieBackground.jpg) no-repeat center fixed;
-  background-size: cover;
-  height: 500px;
-  position: relative;
-  /* background: #A394B8; */
-  color: #211433;
-  
-  /* padding: 80px;
-  text-align: center;
-  height: max-height;
-  background: #d8bcff;
-  color: #412664; */
-}
-/* Increase the font size of the h1 element */
-.header h1 {
-  font-size: 60px;
-  color:#211433;
-  background-color: #f8f3f73c;
-  padding: 60px;
-  border-top-left-radius: 75%;
-  border-top-right-radius: 75%;
-}
-/* Style the header paragraph */
-.header p {
-    font-size: 30px;
-}
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background: f8f3f7;
+  background-color: #333;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  float: right;
   display: block;
-  color: #412664;
+  color: white;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  border: outset;
-  border-color: #f8f3f7;
-  background:#f8f3f7;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: left;
 }
 
 /* Change color on hover */
@@ -66,54 +32,152 @@ body {
   color: black;
 }
 
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-  background: #f8f3f7;
+/* Change color on hover */
+.navbar a:hover {
+  background-color: red;
+  color: black;
 }
 
-/* Main column */
-.main {   
-  flex: 70%;
-  background-color: #f8f3f7;
-  padding: 20px;
-  color: #412664;
-  margin: auto;
-  max-width: 750px;
-  background: #f8f3f7;
+/* header */
+
+.header
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
 }
 
-body {
-  background: #f8f3f7;
-}
-/* Fake image, just for this example */
-.fakeimg {
-  background: radial-gradient(circle, rgba(141,109,29,1) 10%, rgba(152,119,43,1) 22%,rgba(166,143,84,1) 35%, rgba(149,115,35,1) 52%, rgba(136,102,18,1) 64%, rgba(162,136,72,1) 90%);
-  width: 50%;
-  padding: 20px;
+/* Elipse */
+
+/* Style the container/contact section */
+.container2 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
+/* Elipse 2 */
+
+.container3 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Elipse 3 */
+
+.polygons {
   text-align: center;
-  background: #f8f3f7;
-  color: #412664;
+  position: relative;
+}
+.square {
+  width: 300px;
+  height: 250px;
+  background: #805FA2;
+  position: relative;
+  top: 65px;
+  display: inline-block;
+}
+.circle {
+  width: 300px;
+  height: 150px;
+  background: #805FA2;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: -120px;
+  overflow: visible;
+  border-radius: 50%/65% 65% 0 0;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+
+/* Column 2 */
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Column 3 */
+
+.column3 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Column 4 */
+
+.column4 {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Column 5 */
+
+.column5 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Column 6 */
+
+.column6 {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Container 1 Row Adjusts */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
   }
 }
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width:100%;
-  }
-}
-
