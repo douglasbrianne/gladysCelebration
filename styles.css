@@ -4,51 +4,60 @@ body {
 * {
   box-sizing: border-box;
 }
-
+.fit-picture {
+    height: 450px;
+    width: 400;
+    border-radius: 30% 30% 0 0;
+    
+}
 /* Style the top navigation bar */
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+    text-align: center;
+    padding: 2%;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;/* Safari */
 }
-
-/* Style the navigation bar links */
-.navbar a {
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    display: inline;
+    color: rgb(101, 54, 54);
+    text-align: center;
+    font-size: large;
+    padding: 30px 30px;
+    text-decoration: none;
 }
+.navbar a:active {
+    background-color: green;
+    color: white;
+  }
 
-/* Right-aligned link */
-.navbar a.right {
-  float: left;
-}
-
-/* Change color on hover */
+  /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: red;
-  color: black;
+    background-color: rgb(125, 53, 53);
+    color: white;
 }
 
 /* header */
+/* Style the header */
+.sitename {
+    text-align: center;
+    background: rgb(125, 53, 53);
+    background-size:contain;
+    min-height: 50%;
+    padding-top: 30%;
 
-.header {
-    z-index: 3;
-    width: 250px;
-    top: 43px;
-    bottom: 0;
-    height: inherit;
   }
-
-.header2{
+.hcontent {    text-align: center;
+    background: rgb(125, 53, 53);
+    background-size: contain;
+    min-height: 50%;
+    background-position: center;
+    color: white;
+    padding-bottom: 30%;
+  }
+.header{
     padding-left: 150px;
     width: 450px;
     top: 43px;
@@ -56,11 +65,24 @@ body {
     bottom: 0;
   }
 
+/* RSVP Button */
+.button {
+    color: white;
+    padding-bottom: 0px;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+.containerh {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
   background-color: white;
-  padding: 10px;
+  padding: 120px;
 }
 
 /* Elipse */
@@ -87,17 +109,17 @@ body {
   position: relative;
 }
 .square {
-  width: 300px;
+  width: 400px;
   height: 250px;
-  background: #805FA2;
+  background: black;
   position: relative;
   top: 65px;
   display: inline-block;
 }
 .circle {
-  width: 300px;
-  height: 150px;
-  background: #805FA2;
+  width: 400px;
+  height: 200px;
+  background: black;
   border-radius: 50%;
   position: absolute;
   left: 0px;
@@ -106,19 +128,36 @@ body {
   border-radius: 50%/65% 65% 0 0;
 }
 
+/* Column h1 */
 
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
+.columnh1 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    padding-left: 30%;
+    padding-top: 5%
 }
+  
+  /* Column h2 */
+  
+  .columnh2 {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    padding-right: 25%;
+    padding-top: 5%
+  }
 
-
+  /* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 75px;
+    background-color: white;
+  }
 /* Column 2 */
-
+  
 .column2 {
   float: left;
   width: 50%;
@@ -168,6 +207,13 @@ body {
 }
 
 /* Container 1 Row Adjusts */
+.rowh:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
 .row:after {
   content: "";
   display: table;
@@ -188,10 +234,23 @@ body {
 }
 
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+    .row {   
+      flex-direction: column;
+    }
+    .navbar a {
+      float: none;
+      display: block;
+      width:100%;
+    }
   }
-}
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width:100%;
+    }
+  }
