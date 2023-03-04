@@ -5,8 +5,8 @@ body {
   box-sizing: border-box;
 }
 .fit-picture {
-    height: 450px;
-    width: 400;
+    height: 380px;
+    width: 350;
     border-radius: 30% 30% 0 0;
     
 }
@@ -22,20 +22,20 @@ body {
   /* Style the navigation bar links */
   .navbar a {
     display: inline;
-    color: rgb(101, 54, 54);
+    color: rgb(72, 53, 125);
     text-align: center;
     font-size: large;
     padding: 30px 30px;
     text-decoration: none;
 }
 .navbar a:active {
-    background-color: green;
+    background-color: rgb(72, 53, 125);
     color: white;
   }
 
   /* Change color on hover */
 .navbar a:hover {
-    background-color: rgb(125, 53, 53);
+    background-color: rgb(72, 53, 125);
     color: white;
 }
 
@@ -43,14 +43,14 @@ body {
 /* Style the header */
 .sitename {
     text-align: center;
-    background: rgb(125, 53, 53);
+    background: rgb(72, 53, 125);
     background-size:contain;
     min-height: 50%;
     padding-top: 30%;
 
   }
 .hcontent {    text-align: center;
-    background: rgb(125, 53, 53);
+    background: rgb(72, 53, 125);
     background-size: contain;
     min-height: 50%;
     background-position: center;
@@ -134,8 +134,10 @@ body {
     float: left;
     width: 40%;
     margin-top: 6px;
+    border-right: solid;
     padding-left: 30%;
-    padding-top: 5%
+    padding-top: 5%;
+    color: rgb(93, 45, 147);
 }
   
   /* Column h2 */
