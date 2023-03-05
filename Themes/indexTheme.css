@@ -26,8 +26,8 @@ body {
   overflow: hidden;
   background-color: white;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Style the navigation bar links */
@@ -38,6 +38,7 @@ body {
   padding: 30px 20px;
   text-decoration: none;
   font-size: larger;
+  float: left;
 }
 
 /* Right-aligned link */
@@ -47,7 +48,7 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: rgb(199, 176, 207);;
+  background-color: rgb(199, 176, 207);
   color: white;
 }
 
@@ -57,12 +58,19 @@ body {
   color: rgb(199, 176, 207);
   margin: 20% 40%;
   max-width: 300px;
+  padding: 30px 30px;
 }
 
 .button{
   font-size: x-large;
   color: rgb(199, 176, 207);;
   text-decoration: none;
+}
+
+.button:hover{
+  background-color: rgb(199, 176, 207);
+  color: white;
+  text-decoration: underline;
 }
 
 /* header */
@@ -94,12 +102,6 @@ body {
     color: rgb(93, 45, 147);
   }  
 /* RSVP Button */
-.button {
-    color: white;
-    padding-bottom: 0px;
-    font-size: larger;
-    font-weight: bold;
-  }
 
 .containerh {
     border-radius: 5px;
