@@ -1,24 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0;
+  background-color:white;
 }
 
 /* Style the header */
 .header {
   text-align: center;
-  background: url(Resources/Images/mamiebackground1.jpeg) no-repeat center ;
-  background-size: cover;
+  background-image: url(Resources/Images/AdobeStock_455521834_Preview.jpeg);
+  background-size:cover;
   min-height: 100%;
-  background-position: center;
 }
 
 /* Style the top navigation bar */
 .navbar {
+  overflow: hidden;
+  background-color: white;
   text-align: center;
-  padding-bottom: 25%;
-  position: sticky;
-  position: -webkit-sticky; 
-  top: 0;/* Safari */
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 /* Style the navigation bar links */
@@ -26,37 +30,150 @@ body {
   display: inline;
   color: white;
   text-align: center;
-  font-size: large;
-  padding: 30px 30px;
+  padding: 30px 20px;
   text-decoration: none;
+  font-size: larger;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
 }
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: white;
+  background-color: #ddd;
   color: black;
 }
 
-
-/* Increase the font size of the h1 element */
-.header h1 {
-  color: white;
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
 }
 
-/* Style the header paragraph */
-.header p {
-  font-size: 30px;
-  color: white;
-  font-weight: bold;
+
+/* Style the container/contact section */
+.container2 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
 }
 
-/* RSVP Button */
-.button {
-  color: white;
-  padding-bottom: 30px;
-  font-size: larger;
-  font-weight: bold;
+/* Elipse */
+
+.container3 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
 }
+
+.polygons {
+  text-align: center;
+  position: relative;
+}
+.square {
+  width: 300px;
+  height: 250px;
+  background: #805FA2;
+  position: relative;
+  top: 65px;
+  display: inline-block;
+}
+.circle {
+  width: 300px;
+  height: 150px;
+  background: #805FA2;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: -120px;
+  overflow: visible;
+  border-radius: 50%/65% 65% 0 0;
+}
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+
+/* Column 2 */
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Column 3 */
+
+.column3 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Column 4 */
+
+.column4 {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Column 5 */
+
+.column5 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Column 6 */
+
+.column6 {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+/* Container 1 Row Adjusts */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1200px) {
