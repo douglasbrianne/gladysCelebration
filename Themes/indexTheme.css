@@ -6,40 +6,17 @@ body {
 * {
   box-sizing: border-box;
 }
-.fit-picture {
+ .fit-picture {
     height: 380px;
     width: 350;
     border-radius: 30% 30% 0 0;
     
 }
-/* Style the top navigation bar */
-.navbar {
-    text-align: center;
-    padding: 2%;
-    position: sticky;
-    position: -webkit-sticky; 
-    top: 0;/* Safari */
-}
-  
-  /* Style the navigation bar links */
-  .navbar a {
-    display: inline;
-    color: rgb(72, 53, 125);
-    text-align: center;
-    font-size: large;
-    padding: 30px 30px;
-    text-decoration: none;
-}
-.navbar a:active {
-    background-color: rgb(72, 53, 125);
-    color: white;
-  }
-
 
 /* Style the header */
 .header {
   text-align: center;
-  background-image: url(Resources/Images/AdobeStock_455521834.jpeg);
+  background-image: url(/Resources/Images/AdobeStock_455521834.jpeg);
   background-size:cover;
   min-height: 100%;
 }
@@ -88,41 +65,25 @@ body {
   text-decoration: none;
 }
 
-/* Style the container/contact section */
-.container {
-
-  /* Change color on hover */
-.navbar a:hover {
-    background-color: rgb(72, 53, 125);
-    color: white;
-}
-
 /* header */
 /* Style the header */
-.sitename {
+/* .sitename {
     text-align: center;
     background: rgb(72, 53, 125);
     background-size:contain;
     min-height: 50%;
     padding-top: 30%;
 
-  }
-.hcontent {    text-align: center;
-    background: rgb(72, 53, 125);
-    background-size: contain;
-    min-height: 50%;
-    background-position: center;
-    color: white;
-    padding-bottom: 30%;
-  }
-.header{
+  } */
+
+/* .header{
     padding-left: 150px;
     width: 450px;
     top: 43px;
     font-size: 35px;
     bottom: 0;
   }
-
+*/
   .header2{
     float: left;
     width: 40%;
@@ -131,7 +92,7 @@ body {
     padding-left: 30%;
     padding-top: 5%;
     color: rgb(93, 45, 147);
-  } 
+  }  
 /* RSVP Button */
 .button {
     color: white;
@@ -153,14 +114,6 @@ body {
 }
 
 /* Elipse */
-
-/* Style the container/contact section */
-.container2 {
-  border-radius: 5px;
-  background-color: white;
-  padding: 10px;
-}
-
 
 /* Style the container/contact section */
 .container2 {
