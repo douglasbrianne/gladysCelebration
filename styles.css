@@ -1,12 +1,40 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   background-color:white;
 }
+* {
+  box-sizing: border-box;
+}
+.fit-picture {
+    height: 380px;
+    width: 350;
+    border-radius: 30% 30% 0 0;
+    
+}
+/* Style the top navigation bar */
+.navbar {
+    text-align: center;
+    padding: 2%;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;/* Safari */
+}
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    display: inline;
+    color: rgb(72, 53, 125);
+    text-align: center;
+    font-size: large;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+.navbar a:active {
+    background-color: rgb(72, 53, 125);
+    color: white;
+  }
+
 
 /* Style the header */
 .header {
@@ -62,6 +90,72 @@ body {
 
 /* Style the container/contact section */
 .container {
+
+  /* Change color on hover */
+.navbar a:hover {
+    background-color: rgb(72, 53, 125);
+    color: white;
+}
+
+/* header */
+/* Style the header */
+.sitename {
+    text-align: center;
+    background: rgb(72, 53, 125);
+    background-size:contain;
+    min-height: 50%;
+    padding-top: 30%;
+
+  }
+.hcontent {    text-align: center;
+    background: rgb(72, 53, 125);
+    background-size: contain;
+    min-height: 50%;
+    background-position: center;
+    color: white;
+    padding-bottom: 30%;
+  }
+.header{
+    padding-left: 150px;
+    width: 450px;
+    top: 43px;
+    font-size: 35px;
+    bottom: 0;
+  }
+
+  .header2{
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    border-right: solid;
+    padding-left: 30%;
+    padding-top: 5%;
+    color: rgb(93, 45, 147);
+  } 
+/* RSVP Button */
+.button {
+    color: white;
+    padding-bottom: 0px;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+.containerh {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 120px;
+}
+
+/* Elipse */
+
+/* Style the container/contact section */
+.container2 {
   border-radius: 5px;
   background-color: white;
   padding: 10px;
@@ -128,6 +222,81 @@ body {
   background-color: white;
 }
 
+/* Elipse 2 */
+
+.container3 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Elipse 3 */
+
+.polygons {
+  text-align: center;
+  position: relative;
+}
+.square {
+  width: 400px;
+  height: 250px;
+  background: black;
+  position: relative;
+  top: 65px;
+  display: inline-block;
+}
+.circle {
+  width: 400px;
+  height: 200px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: -120px;
+  overflow: visible;
+  border-radius: 50%/65% 65% 0 0;
+}
+
+/* Column h1 */
+
+.columnh1 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    border-right: solid;
+    padding-left: 30%;
+    padding-top: 5%;
+    color: rgb(93, 45, 147);
+}
+  
+  /* Column h2 */
+  
+  .columnh2 {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    padding-right: 25%;
+    padding-top: 5%
+  }
+
+  /* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 75px;
+    background-color: white;
+  }
+/* Column 2 */
+  
+.column2 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 75px;
+  background-color: white;
+}
+
+
 /* Column 3 */
 
 .column3 {
@@ -169,6 +338,12 @@ body {
 }
 
 /* Container 1 Row Adjusts */
+.rowh:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 .row:after {
   content: "";
   display: table;
