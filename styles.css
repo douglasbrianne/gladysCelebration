@@ -65,6 +65,15 @@ body {
     bottom: 0;
   }
 
+  .header2{
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    border-right: solid;
+    padding-left: 30%;
+    padding-top: 5%;
+    color: rgb(93, 45, 147);
+  } 
 /* RSVP Button */
 .button {
     color: white;
