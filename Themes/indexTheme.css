@@ -1,7 +1,7 @@
 body {
   font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0;
-  background-color:white;
+  background-color:FCF0D9;
 }
 * {
   box-sizing: border-box;
@@ -24,9 +24,9 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: white;
+  background-color: FCF0D9;
   text-align: center;
-  padding-left: 50px;
+  padding-left: 5px;
   padding-right: 50px;
 }
 
@@ -49,11 +49,11 @@ body {
 /* Change color on hover */
 .navbar a:hover {
   background-color: rgb(199, 176, 207);
-  color: white;
+  color: #FCF0D9;
 }
 
 .hcontent{
-  background-color: white;
+  background-color: #FCF0D9;
   border-radius: 25% 25% 25% 25%;
   color: rgb(199, 176, 207);
   margin: 20% 40%;
@@ -61,46 +61,27 @@ body {
   padding: 30px 30px;
 }
 
-.button{
+.button {
   font-size: x-large;
   color: rgb(199, 176, 207);;
   text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
   background-color: rgb(199, 176, 207);
-  color: white;
+  color: #FCF0D9;
   text-decoration: underline;
 }
 
-/* header */
-/* Style the header */
-/* .sitename {
-    text-align: center;
-    background: rgb(72, 53, 125);
-    background-size:contain;
-    min-height: 50%;
-    padding-top: 30%;
-
-  } */
-
-/* .header{
-    padding-left: 150px;
-    width: 450px;
-    top: 43px;
-    font-size: 35px;
-    bottom: 0;
-  }
-*/
-  .header2{
-    float: left;
-    width: 40%;
-    margin-top: 6px;
-    border-right: solid;
-    padding-left: 30%;
-    padding-top: 5%;
-    color: rgb(93, 45, 147);
-  }  
+.header2 {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  border-right: solid;
+  padding-left: 30%;
+  padding-top: 5%;
+  color: rgb(93, 45, 147);
+}  
 /* RSVP Button */
 
 .containerh {
@@ -111,11 +92,9 @@ body {
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: white;
+  background-color: #FCF0D9;
   padding: 120px;
 }
-
-/* Elipse */
 
 /* Style the container/contact section */
 .container2 {
@@ -123,8 +102,6 @@ body {
   background-color: white;
   padding: 10px;
 }
-
-/* Elipse */
 
 .container3 {
   border-radius: 5px;
@@ -137,7 +114,7 @@ body {
   position: relative;
 }
 .square {
-  width: 300px;
+  width: 400px;
   height: 250px;
   background: rgb(199, 176, 207);
   position: relative;
@@ -145,8 +122,8 @@ body {
   display: inline-block;
 }
 .circle {
-  width: 300px;
-  height: 150px;
+  width: 400px;
+  height: 200px;
   background: rgb(199, 176, 207);
   border-radius: 50%;
   position: absolute;
@@ -166,9 +143,6 @@ body {
   background-color: white;
 }
 
-
-/* Column 2 */
-
 .column2 {
   float: left;
   width: 50%;
@@ -177,38 +151,10 @@ body {
   background-color: white;
 }
 
-/* Elipse 2 */
-
 .container3 {
   border-radius: 5px;
   background-color: white;
   padding: 10px;
-}
-
-/* Elipse 3 */
-
-.polygons {
-  text-align: center;
-  position: relative;
-}
-.square {
-  width: 400px;
-  height: 250px;
-  background: rgb(199, 176, 207);
-  position: relative;
-  top: 65px;
-  display: inline-block;
-}
-.circle {
-  width: 400px;
-  height: 200px;
-  background:  rgb(199, 176, 207);
-  border-radius: 50%;
-  position: absolute;
-  left: 0px;
-  top: -120px;
-  overflow: visible;
-  border-radius: 50%/65% 65% 0 0;
 }
 
 /* Column h1 */
