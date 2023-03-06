@@ -6,17 +6,11 @@ body {
 * {
   box-sizing: border-box;
 }
- .fit-picture {
-    height: 380px;
-    width: 350;
-    border-radius: 30% 30% 0 0;
-    
-}
 
-/* Style the header */
+/* temporary */
 .header {
   text-align: center;
-  background-image: url(/Resources/Images/AdobeStock_455521834.jpeg);
+  background-image: url("/Resources/Images/mamiebackground2.jpeg");  /* temporary */
   background-size:cover;
   min-height: 100%;
 }
@@ -26,8 +20,8 @@ body {
   overflow: hidden;
   background-color: white;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Style the navigation bar links */
@@ -38,6 +32,7 @@ body {
   padding: 30px 20px;
   text-decoration: none;
   font-size: larger;
+  float: left;
 }
 
 /* Right-aligned link */
@@ -47,16 +42,8 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: rgb(199, 176, 207);;
+  background-color: rgb(199, 176, 207);
   color: white;
-}
-
-.hcontent{
-  background-color: white;
-  border-radius: 25% 25% 25% 25%;
-  color: rgb(199, 176, 207);
-  margin: 20% 40%;
-  max-width: 300px;
 }
 
 .button{
@@ -65,276 +52,8 @@ body {
   text-decoration: none;
 }
 
-/* header */
-/* Style the header */
-/* .sitename {
-    text-align: center;
-    background: rgb(72, 53, 125);
-    background-size:contain;
-    min-height: 50%;
-    padding-top: 30%;
-
-  } */
-
-/* .header{
-    padding-left: 150px;
-    width: 450px;
-    top: 43px;
-    font-size: 35px;
-    bottom: 0;
-  }
-*/
-  .header2{
-    float: left;
-    width: 40%;
-    margin-top: 6px;
-    border-right: solid;
-    padding-left: 30%;
-    padding-top: 5%;
-    color: rgb(93, 45, 147);
-  }  
-/* RSVP Button */
-.button {
-    color: white;
-    padding-bottom: 0px;
-    font-size: larger;
-    font-weight: bold;
-  }
-
-.containerh {
-    border-radius: 5px;
-    background-color: white;
-    padding: 10px;
+.button:hover{
+  background-color: rgb(199, 176, 207);
+  color: white;
+  text-decoration: underline;
 }
-/* Style the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: white;
-  padding: 120px;
-}
-
-/* Elipse */
-
-/* Style the container/contact section */
-.container2 {
-  border-radius: 5px;
-  background-color: white;
-  padding: 10px;
-}
-
-/* Elipse */
-
-.container3 {
-  border-radius: 5px;
-  background-color: white;
-  padding: 10px;
-}
-
-.polygons {
-  text-align: center;
-  position: relative;
-}
-.square {
-  width: 300px;
-  height: 250px;
-  background: rgb(199, 176, 207);;
-  position: relative;
-  top: 65px;
-  display: inline-block;
-}
-.circle {
-  width: 300px;
-  height: 150px;
-  background: rgb(199, 176, 207);;
-  border-radius: 50%;
-  position: absolute;
-  left: 0px;
-  top: -120px;
-  overflow: visible;
-  border-radius: 50%/65% 65% 0 0;
-}
-
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-
-/* Column 2 */
-
-.column2 {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* Elipse 2 */
-
-.container3 {
-  border-radius: 5px;
-  background-color: white;
-  padding: 10px;
-}
-
-/* Elipse 3 */
-
-.polygons {
-  text-align: center;
-  position: relative;
-}
-.square {
-  width: 400px;
-  height: 250px;
-  background: black;
-  position: relative;
-  top: 65px;
-  display: inline-block;
-}
-.circle {
-  width: 400px;
-  height: 200px;
-  background: black;
-  border-radius: 50%;
-  position: absolute;
-  left: 0px;
-  top: -120px;
-  overflow: visible;
-  border-radius: 50%/65% 65% 0 0;
-}
-
-/* Column h1 */
-
-.columnh1 {
-    float: left;
-    width: 40%;
-    margin-top: 6px;
-    border-right: solid;
-    padding-left: 30%;
-    padding-top: 5%;
-    color: rgb(93, 45, 147);
-}
-  
-  /* Column h2 */
-  
-  .columnh2 {
-    float: right;
-    width: 50%;
-    margin-top: 6px;
-    padding-right: 25%;
-    padding-top: 5%
-  }
-
-  /* Create two columns that float next to eachother */
-.column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 75px;
-    background-color: white;
-  }
-/* Column 2 */
-  
-.column2 {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-
-/* Column 3 */
-
-.column3 {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* Column 4 */
-
-.column4 {
-  float: right;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* Column 5 */
-
-.column5 {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* Column 6 */
-
-.column6 {
-  float: right;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* Container 1 Row Adjusts */
-.rowh:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.row3:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row5:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1200px) {
-  .row {   
-    flex-direction: column;
-  }
-  .navbar a {
-    float: none;
-    display: block;
-    width:100%;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width:100%;
-  }
-}
-

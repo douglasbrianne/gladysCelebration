@@ -1,0 +1,60 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color:white;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  /* temporary */
+  .header {
+    text-align: center;
+    background-image: url("/Resources/Images/mamiebackground2.jpeg");  /* temporary */
+    background-size:cover;
+    min-height: 100%;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    display: inline;
+    color: rgb(199, 176, 207);
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: larger;
+    float: left;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(199, 176, 207);
+    color: white;
+  }
+
+  .button{
+    font-size: x-large;
+    color: rgb(199, 176, 207);;
+    text-decoration: none;
+  }
+  
+  .button:hover{
+    background-color: rgb(199, 176, 207);
+    color: white;
+    text-decoration: underline;
+  }
+  
