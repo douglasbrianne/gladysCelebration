@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    font-family: "Quicksand", Variable;
+    background-color: rgb(199, 176, 207);
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(199, 176, 207);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    margin-left: 200px;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: goldenrod;
+    color: white;
+  }

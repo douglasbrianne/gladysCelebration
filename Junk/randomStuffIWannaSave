@@ -1,0 +1,263 @@
+    <div class="container3">
+      <div style="text-align:center">
+        <h2>Containter 3</h2>
+        <p>Containter 3 paragraph</p>
+         <div class="row5">
+            <div class="column5">
+                <div class="polygons">
+                      <div class="square">
+                           <div class="circle">
+                        </div>
+                      </div>
+                  </div>
+            </div>
+           <div class="column6">
+          <div class= "text-font">
+            <h2>Hello</h2>
+                </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container2">
+        <div style="text-align: center">
+          <h2>Containter 2</h2>
+          <p>Containter 2 paragraph</p>
+          <div class="row3">
+            <div class="column3">
+              <div class="text-font">
+                <h2>Hello</h2>
+              </div>
+            </div>
+            <div class="column4">
+              <div class="polygons">
+                <div class="square">
+                  <div class="circle">
+                    <p>this is a paragraph.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2"></div>
+
+      <div class="container">
+        <div style="text-align: center">
+          <h2>Invitation details:</h2>
+          <p>***</p>
+          <div class="row">
+            <img class="fit-picture" src="/Resources/Images/IMG_0451.jpg" />
+          </div>
+        </div>
+      </div>
+.header2 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    border-right: solid;
+    padding-left: 30%;
+    padding-top: 5%;
+    color: rgb(93, 45, 147);
+  }  
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 120px;
+  }
+  
+  /* Style the container/contact section */
+  .container2 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .container3 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .polygons {
+    text-align: center;
+    position: relative;
+  }
+  .square {
+    width: 400px;
+    height: 250px;
+    background: rgb(199, 176, 207);
+    position: relative;
+    top: 65px;
+    display: inline-block;
+  }
+  .circle {
+    width: 400px;
+    height: 200px;
+    background: rgb(199, 176, 207);
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: -120px;
+    overflow: visible;
+    border-radius: 50%/65% 65% 0 0;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    padding: 50%;
+    background-color: white;
+  }
+  
+  .column2 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 75px;
+    background-color: white;
+  }
+  
+  .container3 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Column h1 */
+  
+  .columnh1 {
+      float: left;
+      width: 40%;
+      margin-top: 6px;
+      border-right: solid;
+      padding-left: 30%;
+      padding-top: 5%;
+      color: rgb(93, 45, 147);
+  }
+    
+    /* Column h2 */
+    
+    .columnh2 {
+      float: right;
+      width: 50%;
+      margin-top: 6px;
+      padding-right: 25%;
+      padding-top: 5%
+    }
+  
+    /* Create two columns that float next to eachother */
+  .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 75px;
+    }
+  /* Column 2 */
+    
+  .column2 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 75px;
+  }
+  
+  
+  /* Column 3 */
+  
+  .column3 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 75px;
+    background-color: white;
+  }
+  
+  /* Column 4 */
+  
+  .column4 {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    padding: 75px;
+    background-color: white;
+  }
+  
+  /* Column 5 */
+  
+  .column5 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 75px;
+    background-color: white;
+  }
+  
+  /* Column 6 */
+  
+  .column6 {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    padding: 75px;
+    background-color: white;
+  }
+  
+  /* .column01 {
+    float: center;
+    width: 50%;
+    margin: auto;
+  } */
+  .column02 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    background: white;
+  }
+  .column02 {
+    float: right;
+    width: 25%;
+    margin-top: 6px;
+    background-clip: white;
+  }
+  
+  /* Container 1 Row Adjusts */
+  .rowh:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+  .row:after {
+    background-color: purple;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row5:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .fit-picture {
+    height: 480px;
+    width: 450;
+    border-radius: 45%;
+      
+  }

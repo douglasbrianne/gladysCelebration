@@ -1,0 +1,102 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(199, 176, 207);
+  }
+  * {
+    box-sizing: border-box;
+  }
+   .fit-picture {
+      height: 380px;
+      width: 350;
+      border-radius: 30% 30% 0 0;
+      
+  }
+  
+  /* Style the header */
+  .header {
+    text-align: left;
+    min-height: 100%;
+  }
+
+
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    display: inline;
+    color: rgb(199, 176, 207);
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: larger;
+    float: left;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(199, 176, 207);
+    color: white;
+  }
+  
+  .button{
+    font-size: x-large;
+    color: rgb(199, 176, 207);;
+    text-decoration: none;
+  }
+  
+  .button:hover{
+    background-color: rgb(199, 176, 207);
+    color: white;
+    text-decoration: underline;
+  }
+
+  .button:active{
+    background-color:  rgb(199, 176, 207);
+  }
+  
+ 
+ .header2{
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    border-right: solid;
+    padding-left: 30%;
+    padding-top: 5%;
+    color: rgb(93, 45, 147);
+}
+
+.column {
+    float: left;
+    padding-left: 450px;
+    padding-top: 200px;
+    padding-right: 50px;
+    max-width: 40%;
+    color: white;
+    border-right: solid;
+    margin: 5%;
+ }
+
+.column2 {
+    float: right;
+    padding-top: 175px;
+    padding-right: 400px;
+ }
+
+.row{
+    float: center;
+    max-width: 100%;
+    background-color: rgb(199, 176, 207)
+}
