@@ -1,25 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 body {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: "Quicksand", Variable;
+  background-color: white;
   margin: 0;
-  background-color:white;
-  scroll-behavior: smooth;
-}
-* {
-  box-sizing: border-box;
 }
 
-
-.fit-picture {
-  height: 480px;
-  width: 450;
-  border-radius: 45%;
-    
+.wrapper {
+  height: 100vh;
+  width: 100%;
 }
 
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color:rgb(199, 176, 207);
+  background-color: rgb(199, 176, 207);
   text-align: center;
   padding: 20px;
 }
@@ -31,8 +25,7 @@ body {
   text-align: center;
   padding: 30px;
   text-decoration: none;
-  font-size: larger;
-  
+  font-size: 20px;
 }
 
 /* Right-aligned link */
@@ -42,291 +35,329 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: white;
-  color:  rgb(199, 176, 207);
+  background-color: goldenrod;
+  color: white;
 }
 
-/* Style the header */
+section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Style the intro header section */
 .header {
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  background-size:cover;
-  min-height: 100%;
-  margin-top: 20%;
-  margin-right: 175px;
-  margin-left: 100px;
-}
-
-.hcontent{
+  display: inline-flex;
   color: rgb(199, 176, 207);
-  text-align: center;
-  float: left;
 }
 
-.sitename{
-  padding-top: 50px;
-  padding-left: 50px;
-  text-align: center;
-  font-size: 75px;
-}
-
-.hcontent p {
-  text-align: center;
+.headerLeft {
   font-size: 40px;
+  margin-left: auto;
 }
 
-.hcontent a {
-  text-align: center;
-  font-size: 40px;
-}
-
-.hcontentright{
-  float: right;
-  width: 500px;
-  height: 550px;
-  position: relative;
-  margin-top: 25px;
-  background-color: rgb(199, 176, 207);
-  padding: 30px 30px;
-}
-
-.button {
-  font-size: x-large;
-  color: rgb(199, 176, 207);
+.rsvp {
+  color: goldenrod;
   text-decoration: none;
 }
 
-.button:hover {
+.rsvp:hover {
   background-color: rgb(199, 176, 207);
   color: white;
   text-decoration: underline;
 }
 
-.header2 {
+.headerRight {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15%;
+  width: 600px;
+  height: 650px;
+  background: rgb(199, 176, 207);
+}
+
+.img1 {
+  margin: 8%;
+  width: 500px;
+  height: 550px;
+}
+
+/*Styling for the Info Section*/
+.welcome {
+  justify-content: center;
+}
+
+.content {
+  max-width: 950px;
+  text-align: center;
+  color: rgb(199, 176, 207);
+}
+
+hr {
+  border: 3px solid goldenrod;
+  margin: 11%;
+  margin-top: 15%;
+}
+
+.welcomeBlurb {
+  font-size: 40px;
+}
+
+.infoHeader {
+  font-size: 25px;
+  margin-top: 20%;
+  font-weight: bolder;
+}
+
+.closer {
+  color: rgb(199, 176, 207);
+  text-align: center;
+  position: relative;
+  top: -50px;
+  font-weight: bolder;
+}
+
+.info h3 {
+  color: white;
+  font-size: 30px;
+  max-width: 200px;
+  margin-top: 100px;
+  margin-left: 200px;
+  text-align: center;
+}
+
+.info {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+  font-size: 30px;
+}
+.outerList {
+  max-width: 300px;
+  color: white;
+  text-align: left;
+  margin-left: 125px;
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+.column {
   float: left;
-  width: 40%;
-  margin-top: 6px;
-  border-right: solid;
-  padding-left: 30%;
-  padding-top: 5%;
-  color: rgb(93, 45, 147);
-}  
-/* RSVP Button */
-
-/* .containerh {
-    border-radius: 5px;
-    background-color: white;
-    padding: 10px;
-} */
-/* Style the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: white;
-  padding: 120px;
+  width: 50%;
+  position: relative;
 }
 
-/* Style the container/contact section */
-.container2 {
-  border-radius: 5px;
-  background-color: white;
-  padding: 10px;
-}
-
-.container3 {
-  border-radius: 5px;
-  background-color: white;
-  padding: 10px;
+.columnTwo {
+  float: right;
+  width: 50%;
+  position: relative;
 }
 
 .polygons {
+  margin-top: 15%;
   text-align: center;
   position: relative;
 }
 .square {
-  width: 400px;
-  height: 250px;
-  background: rgb(199, 176, 207);
+  width: 600px;
+  height: 500px;
+  background: goldenrod;
   position: relative;
   top: 65px;
   display: inline-block;
 }
 .circle {
-  width: 400px;
-  height: 200px;
-  background: rgb(199, 176, 207);
+  width: 600px;
+  height: 300px;
+  background: goldenrod;
   border-radius: 50%;
   position: absolute;
   left: 0px;
-  top: -120px;
+  top: -200px;
   overflow: visible;
   border-radius: 50%/65% 65% 0 0;
 }
 
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 100%;
-  margin-top: 6px;
-  padding: 50%;
-  background-color: white;
+.accommodationWords {
+  display: none;
 }
 
-.column2 {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
+.travelWords {
+  display: none;
 }
 
-.container3 {
-  border-radius: 5px;
-  background-color: white;
-  padding: 10px;
+.footer {
+  background-color: rgb(199, 176, 207);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
 }
-
-/* Column h1 */
-
-.columnh1 {
-    float: left;
-    width: 40%;
-    margin-top: 6px;
-    border-right: solid;
-    padding-left: 30%;
-    padding-top: 5%;
-    color: rgb(93, 45, 147);
-}
-  
-  /* Column h2 */
-  
-  .columnh2 {
-    float: right;
-    width: 50%;
-    margin-top: 6px;
-    padding-right: 25%;
-    padding-top: 5%
-  }
-
-  /* Create two columns that float next to eachother */
-.column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 75px;
-  }
-/* Column 2 */
-  
-.column2 {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-}
-
-
-/* Column 3 */
-
-.column3 {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* Column 4 */
-
-.column4 {
-  float: right;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* Column 5 */
-
-.column5 {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* Column 6 */
-
-.column6 {
-  float: right;
-  width: 50%;
-  margin-top: 6px;
-  padding: 75px;
-  background-color: white;
-}
-
-/* .column01 {
-  float: center;
-  width: 50%;
-  margin: auto;
-} */
-.column02 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-  background: white;
-}
-.column02 {
-  float: right;
-  width: 25%;
-  margin-top: 6px;
-  background-clip: white;
-}
-
-/* Container 1 Row Adjusts */
-.rowh:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-.row:after {
-  background-color: purple;
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.row3:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row5:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1200px) {
-  .row {   
-    flex-direction: column;
-  }
-  .navbar a {
-    float: none;
-    display: block;
-    width:100%;
+@media screen and (max-width: 1505px) {
+  .navbar a.right {
+    margin-left: 0px;
   }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1305px) {
   .navbar a {
     float: none;
     display: block;
-    width:100%;
+    width: 100%;
+  }
+  .polygons {
+    margin-top: 25%;
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  .infoHeaderContainer {
+    padding-bottom: 25%;
+  }
+  .info {
+    margin-top: 30%;
+    margin-bottom: 10%;
+    display: block;
+    background-color: goldenrod;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .info h3 {
+    margin-top: 100px;
+    margin-left: 0;
+  }
+
+.headerRight{
+  margin-top: 5%;
+}
+
+  .polygons {
+    display: none;
+  }
+
+  .accommodationWords {
+    margin: auto;
+    display: inline-flex;
+    position: relative;
+  }
+
+  .travelWords {
+    display: inline-flex;
+    position: relative;
+    margin: auto;
+  }
+
+  .header {
+    display: block;
+    padding-bottom: 10%;
+  }
+
+  @media screen and (max-width: 600px){
+
+    .info{
+      margin-top: 40%;
+      padding-bottom: 75%;
+      width: 700px;
+    }
+
+    hr {
+      display: none;
+    }
+
+    .welcomeBlurb{
+      margin-top: 30%;
+    }
+
+    .content{
+      justify-content: center;
+      padding-left: 6%;
+    }
+
+    .accommodationWords{
+      padding-top: 3%;
+      display: block;
+      justify-content: center;
+    }
+
+    .accommodationWords h3 {
+      position: relative;
+      top: 20px;
+      left: 150px;
+      max-width: 300px;
+    }
+
+    .travelWords{
+      display: block;
+      justify-content: center;
+    }
+
+    .travelWords h3{
+      position: relative;
+      top: 20px;
+      left: 150px;
+      max-width: 300px;
+    }
+
+    .navbar{
+      width: 600px;
+    }
+
+    .navbar a{
+      position: relative;
+      left: -50px;
+    }
+
+    .closer{
+      justify-content: center;
+      padding-left: 6%;
+      padding-top: 6%;
+    }
+
+    .footer{
+      width: 600px;
+    }
+  }
+
+  @media screen and (max-width: 1505px) {
+    .header{
+      position: relative;
+      left: 100px;
+    }
+    .headerRight{
+      position: relative;
+      left: -97px;
+    }
+  }
+  .welcome{
+    padding-top: 450px;
+    padding-bottom: 600px;
+    position: relative;
+    left: 100px;
+  }
+
+  .info{
+    padding-bottom: 600px;
+  }
+
+  .closer{
+    position: relative;
+    justify-content: center;
+    left: 100px;
+  }
+
+}
