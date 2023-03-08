@@ -147,12 +147,14 @@ hr {
 }
 
 .column {
+  margin-top: 10%;
   float: left;
   width: 50%;
   position: relative;
 }
 
 .columnTwo {
+  margin-top: 10%;
   float: right;
   width: 50%;
   position: relative;
